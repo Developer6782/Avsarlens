@@ -28,11 +28,18 @@ python3 -m http.server 8080
 
 Or open `app/index.html` directly in a browser.
 
+## Evaluation
+
+`app/eval.html` runs the real extraction pipeline against all 14 synthetic fixtures (14 API calls, your own key) and scores honesty: correct printed dates, never-invented deadlines, and flags on unreadable / torn / multi-ad inputs. Open it, paste your key, press Run, copy the results table. `app/fixtures.html` is a gallery of the 14 test notices.
+
 ## Repository structure
 
 ```
 app/               index.html · app.js · style.css (the whole product)
-eval/fixtures/     8 synthetic test notices (SAMPLE-stamped, invented details)
+app/eval.html      evaluation harness (14-fixture honesty suite, BYOK)
+app/eval.js
+app/fixtures.html  gallery of the 14 synthetic test notices
+app/fixture-*.png  the 14 synthetic test notices (SAMPLE-stamped, invented details)
 SPEC.md            product + technical specification
 ```
 
