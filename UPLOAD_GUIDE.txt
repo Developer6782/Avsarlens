@@ -1,0 +1,22 @@
+AVSARLENS v2 - FINAL PACKAGE (flat = GitHub-friendly, koi folder nahi)
+
+STEP 1 (main upload):
+  GitHub -> Developer6782/AvsarLens -> AvsarLens/app/ folder khol
+  -> Add file -> Upload files
+  -> "to_app" folder ke ANDAR ki SAARI 20 files select kar (folder khud drag MAT karna)
+  -> Commit message: "Add eval harness + 14 test fixtures"
+  -> Commit changes
+
+STEP 2 (docs replace):
+  AvsarLens/ folder pe ja -> Add file -> Upload files
+  -> "root_upload" ki dono files (README.md, SPEC.md) daal
+  -> GitHub bolega "file already exists" -> Replace/commit kar de
+  -> Commit message: "Update docs for flat structure"
+
+STEP 3 (verify):
+  Render auto-redeploy hoga (2-3 min, agar repo connected hai)
+  Test: https://avsarlens.onrender.com/eval.html  -> ab 404 NAHI aayega
+        https://avsarlens.onrender.com/fixtures.html -> gallery
+
+PHIR: eval.html khol -> Gemini key paste -> Run evaluation (14 calls)
+    -> "Copy results table" -> chat me paste kar de.

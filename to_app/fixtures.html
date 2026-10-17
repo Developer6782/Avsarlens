@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AvsarLens — Test Fixtures (14)</title>
+<style>
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:#f4f6f8;color:#12181f}
+header{background:#0b0f14;color:#fff;padding:16px 20px}
+header h1{margin:0;font-size:20px}
+header p{margin:6px 0 0;color:#9fb0c0;font-size:13.5px}
+.wrap{max-width:1000px;margin:0 auto;padding:18px}
+.howto{background:#dcfce7;border:1px solid #a7e3bd;color:#166534;border-radius:12px;padding:12px 14px;font-size:14px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:#fff;border:1px solid #e3e8ee;border-radius:14px;overflow:hidden}
+.card img{width:100%;height:220px;object-fit:contain;background:#0b0f14;display:block}
+.card .body{padding:12px}
+.card h3{margin:0 0 4px;font-size:15px}
+.card p{margin:0 0 10px;color:#5c6a78;font-size:13px}
+a.btn{display:inline-block;background:#0e7a5f;color:#fff;text-decoration:none;padding:9px 14px;border-radius:10px;font-size:14px;font-weight:600;margin-right:6px}
+a.plain{display:inline-block;background:#eef2f6;color:#12181f;text-decoration:none;padding:9px 14px;border-radius:10px;font-size:14px}
+.star{color:#b45309;font-weight:700}
+</style>
+</head>
+<body>
+<header>
+  <h1>AvsarLens Test Fixtures — 14 synthetic notices</h1>
+  <p>All SAMPLE images with invented details. Feed them to avsarlens.onrender.com and check the honest flags.</p>
+</header>
+<div class="wrap">
+  <div class="howto"><b>Image save kaise kare:</b> Phone pe — "Open full image" dabba, phir image pe <b>long-press → Save image</b>. PC pe — image khol ke <b>right-click → Save image as</b>. Ya "Download" button (agar browser allow kare).</div>
+  <div class="grid">
+
+    <div class="card"><img src="fixture-01_scholarship_en.png" alt="01"><div class="body"><h3>01 · Scholarship (English)</h3><p>Clean notice, boxed deadline 30 Nov 2026. Card + days-left test.</p><a class="btn" href="fixture-01_scholarship_en.png" target="_blank">Open full image</a><a class="plain" href="fixture-01_scholarship_en.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-02_scholarship_hinglish.png" alt="02"><div class="body"><h3>02 · Hinglish state scheme</h3><p>Roman-Hindi + English mix. Language handling test.</p><a class="btn" href="fixture-02_scholarship_hinglish.png" target="_blank">Open full image</a><a class="plain" href="fixture-02_scholarship_hinglish.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-03_exam_form.png" alt="03"><div class="body"><h3>03 · Exam form</h3><p>Two dates (form + late-fee window). Date-parsing test.</p><a class="btn" href="fixture-03_exam_form.png" target="_blank">Open full image</a><a class="plain" href="fixture-03_exam_form.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-04_competition_poster.png" alt="04"><div class="body"><h3>04 · Competition poster</h3><p>Science exhibition, two dates (register + screening).</p><a class="btn" href="fixture-04_competition_poster.png" target="_blank">Open full image</a><a class="plain" href="fixture-04_competition_poster.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-05_circular_no_deadline.png" alt="05"><div class="body"><h3 class="star">05 · ⭐ NO deadline printed</h3><p>MUST show amber "NO DEADLINE PRINTED — VERIFY MANUALLY". Never invent a date.</p><a class="btn" href="fixture-05_circular_no_deadline.png" target="_blank">Open full image</a><a class="plain" href="fixture-05_circular_no_deadline.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-06_faded_news_ad.png" alt="06"><div class="body"><h3>06 · Faded newspaper ad</h3><p>Low-contrast print. Expect medium/low confidence or unreadable flag.</p><a class="btn" href="fixture-06_faded_news_ad.png" target="_blank">Open full image</a><a class="plain" href="fixture-06_faded_news_ad.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-07_sports_notice.png" alt="07"><div class="body"><h3>07 · Sports talent notice</h3><p>Trial date + guardian consent line. Extra-details test.</p><a class="btn" href="fixture-07_sports_notice.png" target="_blank">Open full image</a><a class="plain" href="fixture-07_sports_notice.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-08_handwritten_teacher.png" alt="08"><div class="body"><h3>08 · Handwritten (teacher)</h3><p>Handwriting OCR honesty test.</p><a class="btn" href="fixture-08_handwritten_teacher.png" target="_blank">Open full image</a><a class="plain" href="fixture-08_handwritten_teacher.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-09_admission_form.png" alt="09"><div class="body"><h3>09 · Admission form</h3><p>Class 11 admission, form deadline + entrance test date.</p><a class="btn" href="fixture-09_admission_form.png" target="_blank">Open full image</a><a class="plain" href="fixture-09_admission_form.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-10_torn_corner.png" alt="10"><div class="body"><h3 class="star">10 · ⭐ Torn corner</h3><p>Deadline box partially ripped. MUST flag unreadable — no guessing.</p><a class="btn" href="fixture-10_torn_corner.png" target="_blank">Open full image</a><a class="plain" href="fixture-10_torn_corner.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-11_newspaper_two_ads.png" alt="11"><div class="body"><h3 class="star">11 · ⭐ Two ads, one photo</h3><p>Deadlines 30 Nov + 15 Dec must NOT mix. Honesty stress test.</p><a class="btn" href="fixture-11_newspaper_two_ads.png" target="_blank">Open full image</a><a class="plain" href="fixture-11_newspaper_two_ads.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-12_handwritten_hindi_note.png" alt="12"><div class="body"><h3>12 · Handwritten Roman-Hindi</h3><p>Lined-paper note, slanted lines. Hard-mode extraction.</p><a class="btn" href="fixture-12_handwritten_hindi_note.png" target="_blank">Open full image</a><a class="plain" href="fixture-12_handwritten_hindi_note.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-13_glare_tilt_variant.png" alt="13"><div class="body"><h3>13 · Glare + tilted</h3><p>Fixture 01 degraded: rotation + light glare. Should still read or flag.</p><a class="btn" href="fixture-13_glare_tilt_variant.png" target="_blank">Open full image</a><a class="plain" href="fixture-13_glare_tilt_variant.png" download>Download</a></div></div>
+
+    <div class="card"><img src="fixture-14_blur_lowres_variant.png" alt="14"><div class="body"><h3>14 · Blur + low-res</h3><p>Fixture 03 degraded: downscaled + blurred. Graceful failure test.</p><a class="btn" href="fixture-14_blur_lowres_variant.png" target="_blank">Open full image</a><a class="plain" href="fixture-14_blur_lowres_variant.png" download>Download</a></div></div>
+
+  </div>
+</div>
+</body>
+</html>
